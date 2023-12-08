@@ -1,5 +1,3 @@
-
-
 html,body{
     height: 100%;
 
@@ -7,6 +5,9 @@ html,body{
     padding: 0;
 
     color: #fff;
+    background-color: #000;
+
+    overflow-x: hidden;
 }
 
 *{
@@ -35,4 +36,10 @@ html,body{
     font-family: 'Open Sans';
     src: url('/fonts/OpenSans-Regular.ttf');
     font-weight: normal;
+}
+
+@font-face {
+    font-family: 'League Spartan';
+    src: url('/fonts/LeagueSpartan-Bold.ttf');
+    font-weight: bold;
 }
