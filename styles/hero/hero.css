@@ -1,0 +1,106 @@
+.hero-section {
+  position: relative;
+  padding: 50px 100px;
+  width: 100%;
+  height: 100%;
+  box-sizing: border-box;
+  background-image: url("/images/hero_image.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.hero-section header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+.hero-section header #logo {
+  width: 50px;
+  height: 70px;
+  background-image: url("/images/logo.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-section header nav.desktop-nav button {
+  font-family: "Lato", sans-serif;
+  font-weight: bold;
+  font-size: 14pt;
+  color: #fff;
+  border: none;
+  background-color: transparent;
+}
+.hero-section header nav.desktop-nav button:not(:last-child) {
+  margin-right: 30px;
+}
+.hero-section .hero-content-container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 70px 0 100px;
+}
+.hero-section .hero-content-container .hero-content {
+  position: relative;
+}
+.hero-section .hero-content-container .hero-content .header-art {
+  position: absolute;
+  left: -100%;
+  opacity: 0.1;
+  transform: scaleX(-1);
+}
+.hero-section .hero-content-container .hero-content .button-art {
+  position: absolute;
+  left: 5px;
+  bottom: -50px;
+  width: 100px;
+  height: 50px;
+  background-image: url("/images/button_art.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-section .hero-content-container .hero-content h1, .hero-section .hero-content-container .hero-content p {
+  margin: 0;
+}
+.hero-section .hero-content-container .hero-content h1 {
+  margin-bottom: 45px;
+  font-family: "Sen", sans-serif;
+  font-weight: normal;
+  font-size: 80pt;
+  line-height: 80%;
+  color: #FFB800;
+}
+.hero-section .hero-content-container .hero-content p {
+  margin-bottom: 45px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 20pt;
+  color: #ddd;
+}
+.hero-section .hero-content-container .hero-content button {
+  padding: 10px 27px;
+  font-family: "Open Sans", sans-serif;
+  font-size: 14pt;
+  font-weight: bold;
+  color: #fff;
+  background-color: #D11F1F;
+  border: none;
+}
+.hero-section .hero-content-container .hero-bust {
+  width: 600px;
+  height: 700px;
+  background-image: url("/images/bust.png");
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.hero-section .polygon {
+  position: absolute;
+  bottom: 100px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 30px;
+  height: 30px;
+  background-image: url("/images/polygon.svg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+}/*# sourceMappingURL=hero.css.map */
