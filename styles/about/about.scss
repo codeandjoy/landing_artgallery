@@ -54,13 +54,18 @@
                 margin: 0;
             }
             h3{
+                position: relative;
+                z-index: 2;
+
                 margin-bottom: 20px;
     
                 font-family: 'League Spartan', sans-serif;
-                font-size: 60pt;
+                font-size: 58pt;
                 line-height: 77%;
             }
             p{
+                width: 80%;
+
                 font-family: 'Open Sans', sans-serif;
                 font-size: 18pt;
                 text-align: justify;
@@ -75,8 +80,16 @@
     .about-content-container{
         .about-content{
             padding: 0 100px 0 80px;
+            
             .about-content-art{
                 padding: 0 100px 0 80px;
+            }
+
+            h3{
+                text-align: right;
+            }
+            p{
+                margin-left: 20%;
             }
         }
     }
