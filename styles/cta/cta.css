@@ -1,0 +1,40 @@
+.cta-section {
+  position: relative;
+}
+.cta-section .cta-images-container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+.cta-section .cta-images-container .cta-image {
+  aspect-ratio: 1;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+}
+.cta-section .cta-images-container .cta-image-1 {
+  background-image: url("/images/cta_image_1.png");
+}
+.cta-section .cta-images-container .cta-image-2 {
+  background-image: url("/images/cta_image_2.png");
+}
+.cta-section .cta-images-container .cta-image-3 {
+  background-image: url("/images/cta_image_3.png");
+}
+.cta-section .cta-images-container .cta-image-4 {
+  background-image: url("/images/cta_image_4.png");
+}
+.cta-section .cta-images-container .cta-image-5 {
+  background-image: url("/images/cta_image_5.png");
+}
+.cta-section .cta-images-container .cta-image-6 {
+  background-image: url("/images/cta_image_6.png");
+}
+.cta-section .cta {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: 1000px;
+  height: 450px;
+  background-image: url("/images/EEFAAN.svg");
+}/*# sourceMappingURL=cta.css.map */
