@@ -22,14 +22,14 @@
 }
 .about-section .about-content-container .about-content {
   position: relative;
-  padding: 0 80px 0 80px;
+  padding: 0 80px 0 100px;
 }
 .about-section .about-content-container .about-content .about-content-art {
   position: absolute;
-  top: 7px;
-  left: 7px;
+  top: 10px;
+  left: 10px;
   width: 100%;
-  padding: 0 80px;
+  padding: 0 80px 0 100px;
   box-sizing: border-box;
   opacity: 0.2;
 }
@@ -48,17 +48,24 @@
 .about-section .about-content-container .about-content h3 {
   margin-bottom: 20px;
   font-family: "League Spartan", sans-serif;
-  font-size: 70pt;
+  font-size: 60pt;
   line-height: 77%;
 }
 .about-section .about-content-container .about-content p {
   font-family: "Open Sans", sans-serif;
   font-size: 18pt;
+  text-align: justify;
   color: #ddd;
 }
 
 .about-section-reverse {
   flex-direction: row-reverse;
+}
+.about-section-reverse .about-content-container .about-content {
+  padding: 0 100px 0 80px;
+}
+.about-section-reverse .about-content-container .about-content .about-content-art {
+  padding: 0 100px 0 80px;
 }
 
 .about-section > * {
