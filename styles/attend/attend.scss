@@ -1,0 +1,72 @@
+.attend-section{
+    position: relative;
+    height: 100%;
+
+    .attend-art{
+        position: relative;
+
+        height: 100%;
+
+        .dots-container{
+            height: 100%;
+
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+
+            padding: 100px 200px;
+            box-sizing: border-box;
+
+            .dots-row{
+                display: flex;
+                justify-content: space-between;
+
+                .dots{
+                    width: 200px;
+                    height: 200px;
+    
+                    background-image: url('/images/dots.svg');
+                    background-size: contain;
+                    background-repeat: no-repeat;
+                    background-position: center;
+                }
+            }
+
+        }
+        .words-attend{
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+
+            display: flex;
+            flex-direction: column;
+
+            font-family: 'League Spartan', sans-serif;
+            font-size: 200pt;
+
+            color: #0d0d0d;
+            
+            span{
+                margin-bottom: -64px;
+            }
+        }
+    }
+
+    .address{
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        span{
+            font-family: 'Sen', sans-serif;
+            font-weight: bold;
+            font-size: 30pt;
+        }
+    }
+}

@@ -1,0 +1,56 @@
+.attend-section {
+  position: relative;
+  height: 100%;
+}
+.attend-section .attend-art {
+  position: relative;
+  height: 100%;
+}
+.attend-section .attend-art .dots-container {
+  height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 100px 200px;
+  box-sizing: border-box;
+}
+.attend-section .attend-art .dots-container .dots-row {
+  display: flex;
+  justify-content: space-between;
+}
+.attend-section .attend-art .dots-container .dots-row .dots {
+  width: 200px;
+  height: 200px;
+  background-image: url("/images/dots.svg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.attend-section .attend-art .words-attend {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  font-family: "League Spartan", sans-serif;
+  font-size: 200pt;
+  color: #0d0d0d;
+}
+.attend-section .attend-art .words-attend span {
+  margin-bottom: -64px;
+}
+.attend-section .address {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.attend-section .address span {
+  font-family: "Sen", sans-serif;
+  font-weight: bold;
+  font-size: 30pt;
+}/*# sourceMappingURL=attend.css.map */

@@ -1,0 +1,27 @@
+<svg width="220" height="220" viewBox="0 0 220 220" fill="none" xmlns="http://www.w3.org/2000/svg">
+<circle cx="10" cy="10" r="10" transform="rotate(180 10 10)" fill="#0D0D0D"/>
+<circle cx="10" cy="60" r="10" transform="rotate(90 10 60)" fill="#0D0D0D"/>
+<circle cx="10" cy="110" r="10" fill="#0D0D0D"/>
+<circle cx="10" cy="160" r="10" transform="rotate(90 10 160)" fill="#0D0D0D"/>
+<circle cx="10" cy="210" r="10" transform="rotate(90 10 210)" fill="#0D0D0D"/>
+<circle cx="60" cy="10" r="10" transform="rotate(180 60 10)" fill="#0D0D0D"/>
+<circle cx="60" cy="60" r="10" fill="#0D0D0D"/>
+<circle cx="60" cy="110" r="10" transform="rotate(90 60 110)" fill="#0D0D0D"/>
+<circle cx="60" cy="160" r="10" transform="rotate(90 60 160)" fill="#0D0D0D"/>
+<circle cx="60" cy="210" r="10" transform="rotate(180 60 210)" fill="#0D0D0D"/>
+<circle cx="110" cy="10" r="10" transform="rotate(-90 110 10)" fill="#0D0D0D"/>
+<circle cx="110" cy="60" r="10" transform="rotate(180 110 60)" fill="#0D0D0D"/>
+<circle cx="110" cy="110" r="10" transform="rotate(90 110 110)" fill="#0D0D0D"/>
+<circle cx="110" cy="160" r="10" transform="rotate(180 110 160)" fill="#0D0D0D"/>
+<circle cx="110" cy="210" r="10" fill="#0D0D0D"/>
+<circle cx="160" cy="10" r="10" transform="rotate(-90 160 10)" fill="#0D0D0D"/>
+<circle cx="160" cy="60" r="10" transform="rotate(-90 160 60)" fill="#0D0D0D"/>
+<circle cx="160" cy="110" r="10" transform="rotate(90 160 110)" fill="#0D0D0D"/>
+<circle cx="160" cy="160" r="10" transform="rotate(-90 160 160)" fill="#0D0D0D"/>
+<circle cx="160" cy="210" r="10" fill="#0D0D0D"/>
+<circle cx="210" cy="10" r="10" fill="#0D0D0D"/>
+<circle cx="210" cy="60" r="10" fill="#0D0D0D"/>
+<circle cx="210" cy="110" r="10" fill="#0D0D0D"/>
+<circle cx="210" cy="160" r="10" transform="rotate(-90 210 160)" fill="#0D0D0D"/>
+<circle cx="210" cy="210" r="10" transform="rotate(90 210 210)" fill="#0D0D0D"/>
+</svg>
