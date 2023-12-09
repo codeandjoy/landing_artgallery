@@ -1,6 +1,6 @@
 .about-section {
   display: flex;
-  height: 750px;
+  height: 600px;
 }
 .about-section .about-image {
   background-size: cover;
