@@ -116,18 +116,22 @@ const attendSectionTimeline = gsap.timeline({
 });
 attendSectionTimeline
     .from(dots[0], {
+        opacity: 0,
         x: -50,
         y: -50
     }, 0)
     .from(dots[1], {
+        opacity: 0,
         x: 50,
         y: -50
     }, 0)
     .from(dots[2], {
+        opacity: 0,
         x: -50,
         y: 50
     }, 0)
     .from(dots[3], {
+        opacity: 0,
         x: 50,
         y: 50
     }, 0)
