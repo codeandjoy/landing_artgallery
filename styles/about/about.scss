@@ -4,17 +4,20 @@
     height: 600px;
 
     .about-image{
-        background-size: cover;
-        background-position: center;
+        background-size: 120%;
+        background-repeat: no-repeat;
     }
     .about-image-1{
         background-image: url('/images/about_image_1.png');
+        background-position: 70% 50%;
     }
     .about-image-2{
         background-image: url('/images/about_image_2.png');
+        background-position: 30% 50%;
     }
     .about-image-3{
         background-image: url('/images/about_image_3.png');
+        background-position: 70% 50%;
     }
 
     .about-content-container{
