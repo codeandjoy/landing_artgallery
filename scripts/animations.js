@@ -3,8 +3,8 @@ heroSectionTimeline
     .to('.hero-section', {
         backgroundPosition: 'center 0%'
     })
-    .from('.hero-bust', {
-        opacity: 0,
+    .to('.hero-bust', {
+        opacity: 1,
         duration: 1
     }, 0)
     .from('.header-art', {
