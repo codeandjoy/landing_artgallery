@@ -1,5 +1,3 @@
-// const heroText = new SplitType(document.querySelector('.hero-content p'), { types: 'chars' });
-
 const heroSectionTimeline = gsap.timeline();
 heroSectionTimeline
     .to('.hero-section', {
@@ -17,10 +15,10 @@ heroSectionTimeline
         x: 50,
         duration: .5
     }, 0)
-    // .from(heroText.chars, {
-    //     opacity: .4,
-    //     stagger: .006
-    // }, 0)
+    .from('.hero-content p', {
+        x: 50,
+        duration: .5
+    }, 0)
     .from('.hero-content button', {
         opacity: 0,
         y: 100
