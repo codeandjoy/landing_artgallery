@@ -43,5 +43,24 @@
         height: 450px;
 
         background-image: url('/images/EEFAAN.svg');
+        background-size: contain;
+        background-position: center;
+        background-repeat: no-repeat;
+    }
+}
+
+@media (max-width: 1600px){
+    .cta-section{
+        .cta{
+            width: 60%;
+        }
+    }
+}
+
+@media (max-width: 800px){
+    .cta-section{
+        .cta-images-container{
+            grid-template-columns: 1fr 1fr;
+        }
     }
 }
