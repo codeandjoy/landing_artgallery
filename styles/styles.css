@@ -36,29 +36,29 @@ html,body{
 /* Fonts */
 @font-face {
     font-family: 'Lato';
-    src: url('/fonts/Lato-Regular.ttf');
+    src: url('../fonts/Lato-Regular.ttf');
     font-weight: normal;
 }
 @font-face {
     font-family: 'Lato';
-    src: url('/fonts/Lato-Bold.ttf');
+    src: url('../fonts/Lato-Bold.ttf');
     font-weight: bold;
 }
 
 @font-face {
     font-family: 'Sen';
-    src: url('/fonts/Sen-Regular.ttf');
+    src: url('../fonts/Sen-Regular.ttf');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'Open Sans';
-    src: url('/fonts/OpenSans-Regular.ttf');
+    src: url('../fonts/OpenSans-Regular.ttf');
     font-weight: normal;
 }
 
 @font-face {
     font-family: 'League Spartan';
-    src: url('/fonts/LeagueSpartan-Bold.ttf');
+    src: url('../fonts/LeagueSpartan-Bold.ttf');
     font-weight: bold;
 }
