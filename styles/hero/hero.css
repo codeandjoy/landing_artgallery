@@ -10,6 +10,9 @@
   background-repeat: no-repeat;
   background-attachment: fixed;
 }
+.hero-section button:hover {
+  cursor: pointer;
+}
 .hero-section header {
   display: flex;
   align-items: center;

@@ -14,6 +14,10 @@
     background-repeat: no-repeat;
     background-attachment: fixed;
 
+    button:hover{
+        cursor: pointer;
+    }
+
     header{ 
         display: flex;
         align-items: center;
