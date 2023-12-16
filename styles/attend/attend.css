@@ -21,7 +21,7 @@
 .attend-section .attend-art .dots-container .dots-row .dots {
   width: 200px;
   height: 200px;
-  background-image: url("/images/dots.svg");
+  background-image: url("../../images/dots.svg");
   background-size: contain;
   background-repeat: no-repeat;
   background-position: center;

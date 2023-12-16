@@ -13,22 +13,22 @@
   background-repeat: no-repeat;
 }
 .cta-section .cta-images-container .cta-image-1 {
-  background-image: url("/images/cta_image_1.jpg");
+  background-image: url("../../images/cta_image_1.jpg");
 }
 .cta-section .cta-images-container .cta-image-2 {
-  background-image: url("/images/cta_image_2.jpg");
+  background-image: url("../../images/cta_image_2.jpg");
 }
 .cta-section .cta-images-container .cta-image-3 {
-  background-image: url("/images/cta_image_3.jpg");
+  background-image: url("../../images/cta_image_3.jpg");
 }
 .cta-section .cta-images-container .cta-image-4 {
-  background-image: url("/images/cta_image_4.jpg");
+  background-image: url("../../images/cta_image_4.jpg");
 }
 .cta-section .cta-images-container .cta-image-5 {
-  background-image: url("/images/cta_image_5.jpg");
+  background-image: url("../../images/cta_image_5.jpg");
 }
 .cta-section .cta-images-container .cta-image-6 {
-  background-image: url("/images/cta_image_6.jpg");
+  background-image: url("../../images/cta_image_6.jpg");
 }
 .cta-section .cta {
   position: absolute;
@@ -37,7 +37,7 @@
   transform: translate(-50%, -50%);
   width: 1000px;
   height: 450px;
-  background-image: url("/images/EEFAAN.svg");
+  background-image: url("../../images/EEFAAN.svg");
   background-size: contain;
   background-position: center;
   background-repeat: no-repeat;
