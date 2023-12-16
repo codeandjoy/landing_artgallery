@@ -196,13 +196,9 @@
   .hero-section header nav#mobile-nav .nav-buttons button {
     padding: 16px;
   }
-  .hero-section .hero-content-container .hero-content {
-    border-style: dashed;
-  }
   .hero-section .hero-content-container .hero-content h1 {
     font-size: 50pt;
     max-width: 400px;
-    border-style: dashed;
   }
   .hero-section .hero-content-container .hero-content p {
     max-width: 400px;
