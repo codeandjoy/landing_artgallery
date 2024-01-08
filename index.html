@@ -17,13 +17,14 @@
     <link rel="stylesheet" href="./styles/about/about.css">
     <link rel="stylesheet" href="./styles/cta/cta.css">
     <link rel="stylesheet" href="./styles/attend/attend.css">
+    <link rel="stylesheet" href="./styles/animations/animaitons.css">
     
     <title>Art Gallery</title>
 </head>
 <body>
     <div id="full-page-fade"></div>
 
-    <div class="hero-section">
+    <div class="hero-section anim-bg-slide-in-top">
         <header>
             <div id="logo"></div>
             <nav id="desktop-nav">
@@ -43,18 +44,18 @@
 
         <div class="hero-content-container">
             <div class="hero-content">
-                <div class="header-art"><h1>A gallery for every taste.</h1></div>
-                <div class="button-art"></div>
+                <div class="header-art"><h1 class="anim-slide-in-left">A gallery for every taste.</h1></div>
+                <div class="button-art anim-slide-in-bottom"></div>
                 
-                <h1>A gallery for every taste.</h1>
-                <p>
+                <h1 class="anim-slide-in-right">A gallery for every taste.</h1>
+                <p class="anim-fade-in">
                     Lorem ipsum dolor sit amet, consectetur
                     adipiscing elit, sed do eiusmod tempor
                     incididunt ut labore et dolore magna aliqua.
                 </p>
-                <button id="btn-attend" type="button">Attend</button>
+                <button id="btn-attend" type="button" class="anim-slide-in-bottom">Attend</button>
             </div>
-            <div class="hero-bust"></div>
+            <div class="hero-bust anim-fade-in"></div>
         </div>
 
         <div class="polygon"></div>
@@ -64,9 +65,9 @@
         <div class="about-image about-image-1"></div>
         <div class="about-content-container">
             <div class="about-content">
-                <div class="about-content-art about-content-art-orange"><h3>Every artist was first an amateur</h3></div>
-                <h3 class="anim-h3">Every artist was first an amateur</h3>
-                <p>
+                <div class="about-content-art about-content-art-orange"><h3 class="anim-slide-in-right">Every artist was first an amateur</h3></div>
+                <h3 class="anim-slide-in-right">Every artist was first an amateur</h3>
+                <p class="anim-slide-in-right anim-d-point2">
                     Sed ut perspiciatis unde omnis iste natus error sit
                     voluptatem accusantium doloremque laudantium, totam rem aperiam, 
                     eaque ipsa quae ab illo inventore veritatis et quasi architecto 
@@ -79,9 +80,9 @@
         <div class="about-image about-image-2"></div>
         <div class="about-content-container">
             <div class="about-content">
-                <div class="about-content-art about-content-art-pink"><h3>Art has no end but it's own perfection</h3></div>
-                <h3>Art has no end but it's own perfection</h3>
-                <p>
+                <div class="about-content-art about-content-art-pink"><h3 class="anim-slide-in-left">Art has no end but it's own perfection</h3></div>
+                <h3 class="anim-slide-in-left">Art has no end but it's own perfection</h3>
+                <p class="anim-slide-in-left anim-d-point2">
                     Sed ut perspiciatis unde omnis iste natus error sit
                     voluptatem accusantium doloremque laudantium, totam rem aperiam, 
                     eaque ipsa quae ab illo inventore veritatis et quasi architecto 
@@ -94,9 +95,9 @@
         <div class="about-image about-image-3"></div>
         <div class="about-content-container">
             <div class="about-content">
-                <div class="about-content-art about-content-art-blue"><h3>Art is a lie that makes us realize the truth</h3></div>
-                <h3>Art is a lie that makes us realize the truth</h3>
-                <p>
+                <div class="about-content-art about-content-art-blue"><h3 class="anim-slide-in-right">Art is a lie that makes us realize the truth</h3></div>
+                <h3 class="anim-slide-in-right">Art is a lie that makes us realize the truth</h3>
+                <p class="anim-slide-in-right anim-d-point2">
                     Sed ut perspiciatis unde omnis iste natus error sit
                     voluptatem accusantium doloremque laudantium, totam rem aperiam, 
                     eaque ipsa quae ab illo inventore veritatis et quasi architecto 
@@ -115,7 +116,7 @@
             <div class="cta-image cta-image-5"></div>
             <div class="cta-image cta-image-6"></div>
         </div>
-        <div class="cta"></div>
+        <div class="cta anim-fade-in--mg-500"></div>
     </div>
 
     <div class="attend-section" id="attend-section">
@@ -143,12 +144,6 @@
             <span>Lake Oscarton, WA 88318</span>
         </div>
     </div>
-    
-    
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/gsap.min.js" integrity="sha512-7Au1ULjlT8PP1Ygs6mDZh9NuQD0A5prSrAUiPHMXpU6g3UMd8qesVnhug5X4RoDr35x5upNpx0A6Sisz1LSTXA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.3/ScrollTrigger.min.js" integrity="sha512-LQQDtPAueBcmGXKdOBcMkrhrtqM7xR2bVrnMtYZ8ImAZhFlIb5xrMqQ6uZviyeSB+4mYj89ta8niiCIQM1Gj0w==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.4/ScrollToPlugin.min.js" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
-    <script src="https://unpkg.com/split-type"></script>
     
     <script src="./scripts/animations.js"></script>
     <script src="./scripts/nav.js"></script>

@@ -1,0 +1,50 @@
+.anim-fade-in,
+.anim-fade-in--mg-500 {
+  opacity: 0;
+  transition: all 1s;
+}
+
+.anim-fade-in-active,
+.anim-fade-in--mg-500-active {
+  opacity: 1;
+}
+
+.anim-slide-in-left {
+  position: relative;
+  opacity: 0;
+  left: -100px;
+  transition: all 1s;
+}
+
+.anim-slide-in-left-active {
+  opacity: 1;
+  left: 0px;
+}
+
+.anim-slide-in-right {
+  position: relative;
+  opacity: 0;
+  right: -100px;
+  transition: all 1s;
+}
+
+.anim-slide-in-right-active {
+  opacity: 1;
+  right: 0px;
+}
+
+.anim-slide-in-bottom {
+  position: relative;
+  opacity: 0;
+  bottom: -20px;
+  transition: all 1s;
+}
+
+.anim-slide-in-bottom-active {
+  opacity: 1;
+  bottom: 0;
+}
+
+.anim-d-point2 {
+  transition-delay: 0.2s;
+}/*# sourceMappingURL=animaitons.css.map */

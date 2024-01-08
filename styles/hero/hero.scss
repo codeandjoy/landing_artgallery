@@ -10,7 +10,7 @@
     
     background-image: url('../../images/hero_image.jpg');
     background-size: cover;
-    background-position: center 100%;
+    background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
 
@@ -137,8 +137,6 @@
             background-size: 160%;
             background-position: center;
             background-repeat: no-repeat;
-
-            opacity: 0;
         }
     }
 
