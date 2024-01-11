@@ -189,7 +189,6 @@
     flex-direction: column;
     overflow: hidden;
     width: 200px;
-    height: 0;
     background-color: #000;
     border-radius: 5px 0 5px 5px;
   }

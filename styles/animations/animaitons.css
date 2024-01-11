@@ -47,4 +47,22 @@
 
 .anim-d-point2 {
   transition-delay: 0.2s;
+}
+
+.anim-page-fade {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.anim-page-fade-active {
+  opacity: 0.5;
+}
+
+.anim-nav-buttons {
+  opacity: 0;
+  transition: all 0.3s;
+}
+
+.anim-nav-buttons-active {
+  opacity: 1;
 }/*# sourceMappingURL=animaitons.css.map */
