@@ -35,7 +35,7 @@
                 top: 10px;
                 left: 10px;
 
-                // To align with h3
+                // To align with h1
                 width: 100%;
                 padding: inherit;
                 box-sizing: border-box;
@@ -53,10 +53,10 @@
                 color: #04BFAD;
             }
 
-            h3,p{
+            h1,p{
                 margin: 0;
             }
-            h3{
+            h1{
                 position: relative;
                 z-index: 2;
 
@@ -88,7 +88,7 @@
                 padding: inherit;
             }
 
-            h3{
+            h1{
                 text-align: right;
             }
             p{
@@ -105,7 +105,7 @@
     .about-section{
         .about-content-container{
             .about-content{
-                h3{
+                h1{
                     font-size: 50pt;
                 }
             }
@@ -142,7 +142,7 @@
             .about-content{
                 padding: 0 70px;
                 
-                h3{
+                h1{
                     font-size: 40pt;
                 }
                 p{
@@ -207,7 +207,7 @@
     .about-section-reverse{
         .about-content-container{
             .about-content{
-                h3{
+                h1{
                     text-align: left;
                 }
                 p{
@@ -236,7 +236,7 @@
     .about-section{
         .about-content-container{
             .about-content{
-                h3{
+                h1{
                     font-size: 30pt;
                     margin-bottom: 14px;
                 }
@@ -254,7 +254,7 @@
             padding: 40px 30px;
 
             .about-content{
-                h3{
+                h1{
                     font-size: 22pt;
                 }
                 p{
